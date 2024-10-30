@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        .hero {
+            background-color: #4a4a4a;
+            color: white;
+        }
+        .card-image img {
+            height: 200px; /* Ajuste conforme necessário */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                Sistema Escolar
+            </a>
+            <button class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">Sobre o Sistema</a>
+                <a class="navbar-item" href="#technologies">Tecnologias Utilizadas</a>
+                <a class="navbar-item" href="#features">Funcionalidades</a>
+                <a class="navbar-item" href="#contact">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-large">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Sistema Escolar</h1>
+                <h2 class="subtitle">Gerenciamento de Notas e Turmas</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h1 class="title">Descrição do Projeto</h1>
+            <p>Desenvolvi um <strong>sistema escolar</strong> que permite a interação entre alunos, professores e a secretaria, com funcionalidades específicas para cada grupo.</p>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section">
+        <div class="container">
+            <h1 class="title">Tecnologias Utilizadas</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>C# .NET</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <h1 class="title">Funcionalidades</h1>
+            <div class="columns">
+                <!-- Card Aluno -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="https://via.placeholder.com/400x200?text=Aluno" alt="Tela do Aluno">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="title is-4">Tela do Aluno</h2>
+                            <p>O aluno pode visualizar suas notas e acompanhar seu desempenho acadêmico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Professor -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="https://via.placeholder.com/400x200?text=Professor" alt="Tela do Professor">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="title is-4">Tela do Professor</h2>
+                            <p>O professor acessa as turmas e lança notas dos alunos, facilitando o gerenciamento das avaliações.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Secretaria -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="https://via.placeholder.com/400x200?text=Secretaria" alt="Tela da Secretaria">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="title is-4">Tela da Secretaria</h2>
+                            <p>A secretaria cadastra professores, organiza as turmas e acessa informações sobre as notas dos alunos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button to Go Back to Home Page -->
+    <div class="container has-text-centered">
+        <a href="../sobre_mim.html" class="button is-primary">Voltar para a Página Inicial</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 Sistema Escolar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

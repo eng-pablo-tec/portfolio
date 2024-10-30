@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Henrique | Sistema de Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        .hero {
+            background-color: #4a4a4a;
+            color: white;
+        }
+        .card-image img {
+            height: 200px; /* Ajuste conforme necessário */
+            object-fit: cover;
+        }
+        .back-button {
+            margin-top: 20px; /* Espaço acima do botão */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                Pablo Henrique
+            </a>
+            <button class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">Sobre Mim</a>
+                <a class="navbar-item" href="#projects">Projetos</a>
+                <a class="navbar-item" href="#contact">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-large">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Sistema de Login</h1>
+                <h2 class="subtitle">Desenvolvido com PHP e MySQL</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h1 class="title">Descrição do Projeto</h1>
+            <p>Desenvolvi um <strong>sistema de login</strong> utilizando <strong>PHP</strong> como linguagem de programação principal. O sistema foi projetado para fornecer uma autenticação segura e eficiente, implementando várias camadas de validação e segurança para proteger os dados do usuário.</p>
+            <h2 class="subtitle">Tecnologias Utilizadas</h2>
+            <ul>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Criptografia</li>
+                <li>Tokens</li>
+                <li>Sessões</li>
+            </ul>
+            <h2 class="subtitle">Funcionalidades</h2>
+            <ul>
+                <li>Validações de Entrada</li>
+                <li>Recuperação de Senha</li>
+                <li>Interface Amigável</li>
+            </ul>
+            <h2 class="subtitle">Resultados</h2>
+            <p>O sistema de login desenvolvido garante a segurança dos dados do usuário, proporcionando uma experiência de usuário fluida e eficiente. Este projeto reflete meu compromisso com as melhores práticas de segurança e desenvolvimento web.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h1 class="title">Projetos Relacionados</h1>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="https://seusite1.com" target="_blank">
+                                <figure class="image">
+                                    <img src="https://via.placeholder.com/400x200?text=Projeto+1" alt="Projeto 1">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="title is-4">Projeto 1</h2>
+                            <p>Sistema Procedural.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="https://seusite2.com" target="_blank">
+                                <figure class="image">
+                                    <img src="https://via.placeholder.com/400x200?text=Projeto+2" alt="Projeto 2">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="title is-4">Projeto 2</h2>
+                            <p>Orientação Objetos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Button -->
+    <div class="container has-text-centered back-button">
+        <a href="../sobre_mim.html" class="button is-large is-info">Voltar para a Página Inicial</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 Pablo Henrique. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
